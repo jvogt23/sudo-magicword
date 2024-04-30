@@ -36149,7 +36149,7 @@ then :
 
 fi
 
-ac_config_files="$ac_config_files Makefile docs/Makefile examples/Makefile examples/sudoers examples/sudo.conf examples/sudo_logsrvd.conf examples/syslog.conf include/Makefile lib/eventlog/Makefile lib/fuzzstub/Makefile lib/iolog/Makefile lib/logsrv/Makefile lib/protobuf-c/Makefile lib/ssl_compat/Makefile lib/util/Makefile lib/util/regress/harness lib/util/util.exp logsrvd/Makefile src/intercept.exp src/sudo_usage.h src/Makefile plugins/audit_json/Makefile plugins/sample/Makefile plugins/group_file/Makefile plugins/sample_approval/Makefile plugins/system_group/Makefile plugins/sudoers/Makefile plugins/sudoers/regress/harness plugins/sudoers/sudoers"
+ac_config_files="$ac_config_files Makefile docs/Makefile examples/Makefile examples/sudoers examples/sudo.conf examples/sudo_logsrvd.conf examples/syslog.conf include/Makefile lib/eventlog/Makefile lib/fuzzstub/Makefile lib/iolog/Makefile lib/logsrv/Makefile lib/protobuf-c/Makefile lib/ssl_compat/Makefile lib/util/Makefile lib/util/regress/harness lib/util/util.exp logsrvd/Makefile src/intercept.exp src/sudo_usage.h src/Makefile plugins/audit_json/Makefile plugins/audit_magicword/Makefile plugins/sample/Makefile plugins/group_file/Makefile plugins/sample_approval/Makefile plugins/system_group/Makefile plugins/sudoers/Makefile plugins/sudoers/regress/harness plugins/sudoers/sudoers"
 
 ac_config_commands="$ac_config_commands harness"
 
@@ -37175,6 +37175,7 @@ do
     "src/sudo_usage.h") CONFIG_FILES="$CONFIG_FILES src/sudo_usage.h" ;;
     "src/Makefile") CONFIG_FILES="$CONFIG_FILES src/Makefile" ;;
     "plugins/audit_json/Makefile") CONFIG_FILES="$CONFIG_FILES plugins/audit_json/Makefile" ;;
+    "plugins/audit_magicword/Makefile") CONFIG_FILES="$CONFIG_FILES plugins/audit_magicword/Makefile" ;;
     "plugins/sample/Makefile") CONFIG_FILES="$CONFIG_FILES plugins/sample/Makefile" ;;
     "plugins/group_file/Makefile") CONFIG_FILES="$CONFIG_FILES plugins/group_file/Makefile" ;;
     "plugins/sample_approval/Makefile") CONFIG_FILES="$CONFIG_FILES plugins/sample_approval/Makefile" ;;
